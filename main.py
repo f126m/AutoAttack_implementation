@@ -1,3 +1,6 @@
+"""
+MMA-Trainingのモデル、MNISTデータセットを使用
+"""
 import torch
 import torch.nn as nn
 import math
@@ -20,6 +23,7 @@ def fix_key(state_dict):
 
 
 def loader(data_dir, bs=250):
+    # データセットの読み込み
     transform = transforms.Compose([transforms.ToTensor()])
     mnist = torchvision.datasets.MNIST(root=data_dir, train=False, download=False, transform=transform)
     loader = torch.utils.data.DataLoader(mnist, batch_size=bs, shuffle=False, num_workers=2)

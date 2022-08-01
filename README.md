@@ -1,5 +1,5 @@
 # AutoAttackの実装
-[AutoAttack](https://arxiv.org/pdf/2003.01690.pdf)の非公式実装です。ただし論文内に詳細な記載のないFAB AttackとSquare Attackについては[公式実装](https://github.com/fra31/auto-attack)を用いています（utilsフォルダ内）。
+[AutoAttack](https://arxiv.org/pdf/2003.01690.pdf)の非公式実装です。ただし論文内に詳細な記載のない[FAB Attack](https://arxiv.org/pdf/1907.02044.pdf)と[Square Attack](https://arxiv.org/pdf/1912.00049.pdf)については[公式実装](https://github.com/fra31/auto-attack)を用いています（utilsフォルダ内）。
 
 
 論文については[こちら](https://dcf-short.hatenablog.com/entry/2022/08/01/014306)で解説しています。
